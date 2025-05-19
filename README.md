@@ -17,17 +17,16 @@ Verilerde eksikler, uç değerler ve mantıksız bilgiler vardı. Bunları belir
 Veri setimizi eğitime hazırlarken bazı ön denemeler yaptık. Bu sayede hangi tür yöntemlerin daha başarılı olabileceğini öngörmeye çalıştık.
 
 4. Model Denemeleri
-Birçok farklı yöntem denedik:
 
-  4.1 Lojistik Regresyon: Basit ama etkili bir yaklaşım. Doğruluk oranı yaklaşık %61.
+    Lojistik Regresyon: Basit ama etkili bir yaklaşım. Doğruluk oranı yaklaşık %61.
 
-  4.2 Rastgele Orman (Random Forest): Karar ağaçlarını birleştirerek çalışan bir sistem. Güçlü sonuçlar verdi. Doğruluk oranı yaklaşık %72.
+    Rastgele Orman (Random Forest): Karar ağaçlarını birleştirerek çalışan bir sistem. Güçlü sonuçlar verdi. Doğruluk oranı yaklaşık %72.
 
-  4.3 LightGBM: Daha hafif ve hızlı çalışan bir yöntem. Doğruluk oranı: %75.6
+    LightGBM: Daha hafif ve hızlı çalışan bir yöntem. Doğruluk oranı: %75.6
 
-  4.4 Oy Çokluğu (Voting Classifier): Tüm modellerin ortak kararına göre sonuç veren bir sistem. Böylece daha dengeli ve güvenilir sonuçlar elde ettik. Doğruluk oranı yaklaşık %74.
+    Oy Çokluğu (Voting Classifier): Tüm modellerin ortak kararına göre sonuç veren bir sistem. Böylece daha dengeli ve güvenilir sonuçlar elde ettik. Doğruluk oranı yaklaşık %74.
 
-  4.5Model Ayarı (RandomizedSearchCV): En iyi sonuçları almak için modellerin ayarlarını otomatik olarak taradık. Doğruluk oranı yaklaşık %75.
+    Model Ayarı (RandomizedSearchCV): En iyi sonuçları almak için modellerin ayarlarını otomatik olarak taradık. Doğruluk oranı yaklaşık %75.
 
 ✅ Sonuç
 
